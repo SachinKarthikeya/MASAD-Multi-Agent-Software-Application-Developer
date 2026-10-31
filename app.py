@@ -4,8 +4,8 @@ from agents import assemble_crew
 
 tech_crew = assemble_crew()
 
-st.title("Multi-Agent Software Application Development Assistant")
-st.write("Have a project idea? Let our multi-agent system help you plan, develop, test, review and deploy it!")
+st.title("Multi-Agent Software Application Developer")
+st.write("Have a project idea? Let our multi-agent system help you plan, develop, test and review your application from scratch.")
 
 project_idea = st.text_area("Enter your project idea here")
 
