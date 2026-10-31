@@ -60,7 +60,7 @@ developing_task = Task(
     If the project can be built efficiently using simpler data sources, tools or technologies, prioritize those over more complex options. 
     If the user has provided specific requirements or constraints, ensure that the developed software application adheres to those. If not, use simple yet efficient tools, technologies, and data sources to build the application.
     """,
-    expected_output = "A fully developed software application that meets the defined requirements with clean, modular and production-ready code.",
+    expected_output = "An initially developed software application that meets the defined requirements with clean and modular code.",
     agent = developer_agent
 )
 testing_task = Task(
